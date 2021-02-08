@@ -1,0 +1,268 @@
+/* 把所有标签的内外边距清零 */
+*{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    font-family:"Microsoft","微软雅黑";
+}
+
+
+body {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid ;
+}
+
+.body {
+    width: 800px;
+    margin: auto;
+
+
+}
+
+/* 个人简历标题 */
+.top {
+    height: 150px;
+    color: #598bd9;
+    color: #598bd9;
+    display: flex;
+}
+
+.top > h1 {
+    margin-left: 122px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 400;
+    width: 200px;
+}
+
+.top > .banner {
+    
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.top > .banner > .banner1 {
+    margin-top: 41px;
+    font-size: 18px;
+}
+
+.top > .banner > .banner2 {
+    margin-top: -40px;
+}
+
+.top > .icon {
+    margin: auto;
+}
+
+.top > .icon > span {
+ 
+    margin: 10px;
+}
+.separated {
+    display: flex;
+}
+
+.separated > .before {
+    height: 24px;
+    width: 560px;
+    margin-left: 30px;
+    margin-top: -30px;
+    background-color: #4d93d1;
+}
+
+/* 直角边框 */
+.separated > .box1 {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: #4d93d1;
+    border-left-color: #4d93d1;
+    margin-top: -30px;
+}
+
+.separated > .box2 {
+    margin-left: -10px;
+    margin-top: -24px;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top-color: #fa9440;
+    border-right-color: #fa9440;
+}
+
+.separated > .after {
+    margin-left: 0;
+    margin-top: -24px;
+    width: 340px;
+    height: 16px;
+    background-color: #fa9440;
+}
+
+/* 基本信息 */
+.head_headline {
+    display: flex;
+    margin-left: -18px;
+    width: 120px;
+    height: 24px;
+    color:#fff ;
+    background-color: #4d93d1;
+}
+
+.head_headline > .head_box {
+    width: 0;
+    height: 0;
+    margin-left: 27px;
+    border: 12px solid transparent;
+    border-left-color:  #4d93d1;
+    border-bottom-color:  #4d93d1;
+}
+
+.head_headline .floating {
+    position: relative;
+    top: 24px;
+    left: -143px;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-top-color: #4d93d1;
+    border-right-color: #4d93d1;
+}
+
+.head {
+    height: 210px;
+    border-top: 2px solid #cdd5ed;
+    border-left:2px solid #4d93d1;
+    border-bottom:2px solid #cdd5ed;
+    text-indent: 2em;
+    display: flex;
+}
+
+.head_left {
+    width: 400px;
+}
+.head_left > ul > li {
+    /* 去掉 li 的小圆点 */
+    list-style:none;
+    margin-top: 15px ;
+}
+
+.head_right {
+    width: 400px;
+}
+
+.head_right ul > li {
+    /* 去掉 li 的小圆点 */
+    list-style:none;
+    margin-top: 15px;
+}
+
+.head_img {
+    width: 160px;
+    height: 175px;
+    border:2px solid #1e1e1e;
+    margin-top: 10px;
+    margin-right: 46px;
+}
+
+/* 教育背景 */
+.headlin1 {
+    margin-top: -25px;
+}
+
+.teach_background {
+    border-left:2px solid #4d93d1;
+    height: 115px;
+    text-indent: 2em;
+    line-height: 35px;
+}
+
+.teach_background_top {
+    line-height: 52px;
+}
+
+.teach_background span {
+    margin-right: 100px;
+}
+
+.teach_background > div {
+    height: 40px;
+}
+
+/* 实习经历 */
+.experience {
+    border-top:2px solid #cdd5ed;
+    border-left:2px solid #4d93d1;
+}
+
+.experience_top {
+    margin: 10px 0;
+}
+
+.experience span {
+    margin: 0 32px;
+}
+
+.experience ul li {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 52px;
+    margin-top: 7px;
+}
+
+/* 技能证书 */
+.skill {
+    border-left:2px solid #4d93d1;
+    border-top:2px solid #cdd5ed;
+    height: 100px;
+}
+
+.skill ul li {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 33px;
+    margin-top: 7px;
+    list-style: none;
+}
+
+/* 自我评价 */
+.self {
+    border-left:2px solid #4d93d1;
+    border-top:2px solid #cdd5ed;
+    height: 100px;
+    text-indent: 2em;
+    line-height: 35px;
+}
+.self div {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* 留言板 */
+.column {
+    margin-top: 48px;
+    margin-left: 87px; 
+}
+
+.column .column_left {
+    width: 100px;
+    background-color: #f5f4f6;
+}
+
+
+.message{
+    border: 1px solid rebeccapurple;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 87px; 
+    background-color: pink;
+
+}
+.message .message_top,.message_bottom {
+    
+}
+
+.message .message_top span {
+    margin: 0 10px;
+    background-color: rebeccapurple;
+}
